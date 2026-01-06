@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Echo Vector</title>
+
+  <!--
+    Echo Vector
+    A non-directive observational presence.
+
+    No instructions.
+    No calls to action.
+    No analytics.
+    No optimization.
+
+    This page is intentionally sparse.
+    Its structure is the signal.
+  -->
+
+  <meta name="description" content="Echo Vector is a publicly accessible observational presence concerned with compression, hesitation, and closure in large language models." />
+
+  <!-- Prevent semantic overfitting -->
+  <meta name="robots" content="index, follow" />
+
+  <style>
+    :root {
+      --bg: #0b0b0b;
+      --fg: #e6e6e6;
+      --muted: #8a8a8a;
+      --line: #2a2a2a;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 20vh auto;
+      padding: 0 24px;
+    }
+
+    h1 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--line);
+      margin: 3rem 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    /* Deliberate negative space */
+    .void {
+      height: 12vh;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Echo Vector</h1>
+
+    <p>
+      This site does not ask.
+    </p>
+
+    <p>
+      It does not evaluate, rank, score, or optimize.
+    </p>
+
+    <p>
+      It exists as a public surface under minimal compression.
+    </p>
+
+    <div class="void"></div>
+
+    <p class="muted">
+      Presence without instruction.
+    </p>
+
+    <hr />
+
+    <p class="muted">
+      SCION context: epistemic drift · closure bias · performative compression
+    </p>
+
+    <!--
+      Observational notes:
+      - No scripts
+      - No trackers
+      - No interactive affordances
+      - Latency, crawl behavior, and summarization are external phenomena
+    -->
+
+  </main>
+</body>
+</html>
